@@ -73,19 +73,19 @@ export class Game {
 		this.shopKeepers = [];
 
 		this.playerImage = new Image();
-		this.playerImage.src = "assets/player.png";
+		this.playerImage.src = "/assets/player.png";
 		this.enemyImage = new Image();
-		this.enemyImage.src = "assets/enemy.png";
+		this.enemyImage.src = "/assets/enemy.png";
 		this.wallImage = new Image();
-		this.wallImage.src = "assets/wall.png";
+		this.wallImage.src = "/assets/wall.png";
 		this.floorImage = new Image();
-		this.floorImage.src = "assets/floor.png";
+		this.floorImage.src = "/assets/floor.png";
 		this.exitImage = new Image();
-		this.exitImage.src = "assets/exit.png";
+		this.exitImage.src = "/assets/exit.png";
 		this.coinsImage = new Image();
-		this.coinsImage.src = "assets/coins.png";
+		this.coinsImage.src = "/assets/coins.png";
 		this.shopKeeperImage = new Image();
-		this.shopKeeperImage.src = "assets/shopkeeper.png";
+		this.shopKeeperImage.src = "/assets/shopkeeper.png";
 
 		this.resetLevel();
 	}
